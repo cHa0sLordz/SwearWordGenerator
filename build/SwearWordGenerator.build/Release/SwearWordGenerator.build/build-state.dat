@@ -1,0 +1,653 @@
+TSwearWordGenerator
+v7
+r0
+t301159507.083435
+cCheck dependencies
+cProcessInfoPlistFile /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Info.plist SwearWordGenerator-Info.plist
+cCopyStringsFile /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/InfoPlist.strings InfoPlist.strings
+cCompileXIB /Users/Moe/Documents/SwearWordGenerator/MainMenu.xib
+cCpResource build/Release/SwearWordGenerator.app/Contents/Resources/SwearWord.icns SwearWord.icns
+cCpResource build/Release/SwearWordGenerator.app/Contents/Resources/Credits.rtf Credits.rtf
+cProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-gxsxztaoirbqtnhgtqikycbdmppi/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fuzmqevtmfaxhghelqowkcxcklwr/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-eujeajdxixldaogsgmgbwqvzaect/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/main.o /Users/Moe/Documents/SwearWordGenerator/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordController.o /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator normal x86_64
+cCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/main.o /Users/Moe/Documents/SwearWordGenerator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordController.o /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator normal i386
+cCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/main.o /Users/Moe/Documents/SwearWordGenerator/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordController.o /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator normal ppc
+cCreateUniversalBinary /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app.dSYM /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator
+cTouch /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Moe/Documents/SwearWordGenerator/Credits.rtf
+c000000004C4319C400000000000001DC
+t1279465924
+s476
+
+N/Users/Moe/Documents/SwearWordGenerator/English.lproj/InfoPlist.strings
+c000000004C35FB79000000000000002D
+t1278606201
+s45
+
+N/Users/Moe/Documents/SwearWordGenerator/English.lproj/MainMenu.xib
+c000000004C360A280000000000016E80
+t1278609960
+s93824
+
+N/Users/Moe/Documents/SwearWordGenerator/InfoPlist.strings
+c000000004C4311F9000000000000002C
+t1279463929
+s44
+
+N/Users/Moe/Documents/SwearWordGenerator/MainMenu.xib
+c000000004C4314460000000000011D63
+t1279464518
+s73059
+
+N/Users/Moe/Documents/SwearWordGenerator/SwearWord.icns
+c000000004C431788000000000000A8B9
+t1279465352
+s43193
+
+N/Users/Moe/Documents/SwearWordGenerator/SwearWordController.h
+c000000004C3E29B700000000000002E3
+t1279142327
+s739
+i<Cocoa/Cocoa.h>
+
+N/Users/Moe/Documents/SwearWordGenerator/SwearWordController.m
+c000000004C3E2ED10000000000000D11
+t1279143633
+s3345
+i"SwearWordController.h"
+
+N/Users/Moe/Documents/SwearWordGenerator/SwearWordGenerator_Prefix.pch
+c000000004C35FB7900000000000000A7
+t1278606201
+s167
+i<Cocoa/Cocoa.h>
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app
+t1279466179
+s102
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app.dSYM
+t1279466132
+s102
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Info.plist
+t1279466179
+s928
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator
+t1279466132
+s59136
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/PkgInfo
+t1279466179
+s8
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/Credits.rtf
+t1279466124
+s476
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/InfoPlist.strings
+t1279466125
+s90
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/MainMenu.nib
+t1279466125
+s12325
+
+N/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/SwearWord.icns
+t1279466124
+s43193
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordController.o
+t1279466131
+s23216
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator
+t1279466132
+s18456
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator.LinkFileList
+c000000004C431A8C0000000000000115
+t1279466124
+s277
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/main.o
+t1279466131
+s4844
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordController.o
+t1279466132
+s24796
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator
+t1279466132
+s18176
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator.LinkFileList
+c000000004C431A8C0000000000000113
+t1279466124
+s275
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/main.o
+t1279466132
+s4876
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordController.o
+t1279466131
+s30132
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator
+t1279466132
+s16264
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator.LinkFileList
+c000000004C431A8C0000000000000119
+t1279466124
+s281
+
+N/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/main.o
+t1279466131
+s5048
+
+N/Users/Moe/Documents/SwearWordGenerator/main.m
+c000000004C35FB790000000000000100
+t1278606201
+s256
+i<Cocoa/Cocoa.h>
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/Credits.rtf
+c000000004C4319C400000000000001DC
+t1279465924
+s476
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/InfoPlist.strings
+c000000004C4311F9000000000000002C
+t1279463929
+s44
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/MainMenu.xib
+c000000004C4314460000000000011D63
+t1279464518
+s73059
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/SwearWord.icns
+c000000004C431788000000000000A8B9
+t1279465352
+s43193
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/SwearWordController.h
+c000000004C3E29B700000000000002E3
+t1279142327
+s739
+i<Cocoa/Cocoa.h>
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/SwearWordController.m
+c000000004C3E2ED10000000000000D11
+t1279143633
+s3345
+i"SwearWordController.h"
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/SwearWordGenerator_Prefix.pch
+c000000004C35FB7900000000000000A7
+t1278606201
+s167
+i<Cocoa/Cocoa.h>
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app
+t1279466179
+s102
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app.dSYM
+t1279466132
+s102
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Info.plist
+t1279466179
+s928
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator
+t1279466132
+s59136
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/PkgInfo
+t1279466179
+s8
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/Credits.rtf
+t1279466124
+s476
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/InfoPlist.strings
+t1279466125
+s90
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/MainMenu.nib
+t1279466125
+s12325
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/SwearWord.icns
+t1279466124
+s43193
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordController.o
+t1279466131
+s23216
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator
+t1279466132
+s18456
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator.LinkFileList
+c000000004C431A8C0000000000000115
+t1279466124
+s277
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/main.o
+t1279466131
+s4844
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordController.o
+t1279466132
+s24796
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator
+t1279466132
+s18176
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator.LinkFileList
+c000000004C431A8C0000000000000113
+t1279466124
+s275
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/main.o
+t1279466132
+s4876
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordController.o
+t1279466131
+s30132
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator
+t1279466132
+s16264
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator.LinkFileList
+c000000004C431A8C0000000000000119
+t1279466124
+s281
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/main.o
+t1279466131
+s5048
+
+N/Users/Moe/Projekte/Cocoa/SwearWordGenerator/main.m
+c000000004C35FB790000000000000100
+t1278606201
+s256
+i<Cocoa/Cocoa.h>
+
+N/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-cfoavapqjpkjsleodxtljcdiuwdb/SwearWordGenerator_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-dsidukaicbmszogbqangwxdqjckm/SwearWordGenerator_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-eujeajdxixldaogsgmgbwqvzaect/SwearWordGenerator_Prefix.pch.gch
+t1279466131
+s52794960
+
+N/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fbzzvhxyegkzgncygepgngywwcii/SwearWordGenerator_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fpiwngkqlvphgngyffcenyavxaik/SwearWordGenerator_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fpjxufladiimuedhqclvcyopojfw/SwearWordGenerator_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fuzmqevtmfaxhghelqowkcxcklwr/SwearWordGenerator_Prefix.pch.gch
+t1279466131
+s55559984
+
+N/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-ggjwncragceaunakeleoctqdevhn/SwearWordGenerator_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-gxsxztaoirbqtnhgtqikycbdmppi/SwearWordGenerator_Prefix.pch.gch
+t1279466130
+s52922128
+
+NSwearWordGenerator-Info.plist
+c000000004C431AC000000000000003C3
+t1279466176
+s963
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301159507#301159507#0(0"0(0#1#0"8698641120#0"0#
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordController.o /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301158931.588588
+e301158931.909830
+r1
+xCompileC
+xbuild/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordController.o
+x/Users/Moe/Documents/SwearWordGenerator/SwearWordController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m301158931#301158931#0(0"0(0#0#61"/Users/Moe/Documents/SwearWordGenerator/SwearWordController.m8721414944#1741"    cd /Users/Moe/Documents/SwearWordGenerator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-generated-files.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-own-target-headers.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-all-target-headers.hmap -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-project-headers.hmap -F/Users/Moe/Documents/SwearWordGenerator/build/Release -I/Users/Moe/Documents/SwearWordGenerator/build/Release/include -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources/i386 -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources -include /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fuzmqevtmfaxhghelqowkcxcklwr/SwearWordGenerator_Prefix.pch -c /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m -o /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordController.o0#
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordController.o /Users/Moe/Projekte/Cocoa/SwearWordGenerator/SwearWordController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/main.o /Users/Moe/Documents/SwearWordGenerator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301158931.587705
+e301158931.859959
+r1
+xCompileC
+xbuild/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/main.o
+x/Users/Moe/Documents/SwearWordGenerator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Moe/Documents/SwearWordGenerator/main.m301158931#301158931#0(0"0(0#0#46"/Users/Moe/Documents/SwearWordGenerator/main.m8623577504#1711"    cd /Users/Moe/Documents/SwearWordGenerator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-generated-files.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-own-target-headers.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-all-target-headers.hmap -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-project-headers.hmap -F/Users/Moe/Documents/SwearWordGenerator/build/Release -I/Users/Moe/Documents/SwearWordGenerator/build/Release/include -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources/i386 -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources -include /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fuzmqevtmfaxhghelqowkcxcklwr/SwearWordGenerator_Prefix.pch -c /Users/Moe/Documents/SwearWordGenerator/main.m -o /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/main.o0#
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/main.o /Users/Moe/Projekte/Cocoa/SwearWordGenerator/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordController.o /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s301158931.860057
+e301158932.167848
+r1
+xCompileC
+xbuild/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordController.o
+x/Users/Moe/Documents/SwearWordGenerator/SwearWordController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m301158931#301158932#0(0"0(0#0#61"/Users/Moe/Documents/SwearWordGenerator/SwearWordController.m8716359968#1748"    cd /Users/Moe/Documents/SwearWordGenerator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-generated-files.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-own-target-headers.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-all-target-headers.hmap -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-project-headers.hmap -F/Users/Moe/Documents/SwearWordGenerator/build/Release -I/Users/Moe/Documents/SwearWordGenerator/build/Release/include -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources/ppc -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources -include /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-eujeajdxixldaogsgmgbwqvzaect/SwearWordGenerator_Prefix.pch -c /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m -o /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordController.o0#
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordController.o /Users/Moe/Projekte/Cocoa/SwearWordGenerator/SwearWordController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/main.o /Users/Moe/Documents/SwearWordGenerator/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s301158931.858470
+e301158932.084189
+r1
+xCompileC
+xbuild/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/main.o
+x/Users/Moe/Documents/SwearWordGenerator/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Moe/Documents/SwearWordGenerator/main.m301158931#301158932#0(0"0(0#0#46"/Users/Moe/Documents/SwearWordGenerator/main.m8720316416#1718"    cd /Users/Moe/Documents/SwearWordGenerator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-generated-files.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-own-target-headers.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-all-target-headers.hmap -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-project-headers.hmap -F/Users/Moe/Documents/SwearWordGenerator/build/Release -I/Users/Moe/Documents/SwearWordGenerator/build/Release/include -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources/ppc -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources -include /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-eujeajdxixldaogsgmgbwqvzaect/SwearWordGenerator_Prefix.pch -c /Users/Moe/Documents/SwearWordGenerator/main.m -o /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/main.o /Users/Moe/Projekte/Cocoa/SwearWordGenerator/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordController.o /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301158931.586963
+e301158931.911158
+r1
+xCompileC
+xbuild/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordController.o
+x/Users/Moe/Documents/SwearWordGenerator/SwearWordController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m301158931#301158931#0(0"0(0#0#61"/Users/Moe/Documents/SwearWordGenerator/SwearWordController.m8693305472#1747"    cd /Users/Moe/Documents/SwearWordGenerator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-generated-files.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-own-target-headers.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-all-target-headers.hmap -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-project-headers.hmap -F/Users/Moe/Documents/SwearWordGenerator/build/Release -I/Users/Moe/Documents/SwearWordGenerator/build/Release/include -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources/x86_64 -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources -include /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-gxsxztaoirbqtnhgtqikycbdmppi/SwearWordGenerator_Prefix.pch -c /Users/Moe/Documents/SwearWordGenerator/SwearWordController.m -o /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordController.o0#
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordController.o /Users/Moe/Projekte/Cocoa/SwearWordGenerator/SwearWordController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/main.o /Users/Moe/Documents/SwearWordGenerator/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301158931.586040
+e301158931.858360
+r1
+xCompileC
+xbuild/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/main.o
+x/Users/Moe/Documents/SwearWordGenerator/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Moe/Documents/SwearWordGenerator/main.m301158931#301158931#0(0"0(0#0#46"/Users/Moe/Documents/SwearWordGenerator/main.m8726078656#1717"    cd /Users/Moe/Documents/SwearWordGenerator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-generated-files.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-own-target-headers.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-all-target-headers.hmap -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-project-headers.hmap -F/Users/Moe/Documents/SwearWordGenerator/build/Release -I/Users/Moe/Documents/SwearWordGenerator/build/Release/include -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources/x86_64 -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources -include /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-gxsxztaoirbqtnhgtqikycbdmppi/SwearWordGenerator_Prefix.pch -c /Users/Moe/Documents/SwearWordGenerator/main.m -o /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/main.o /Users/Moe/Projekte/Cocoa/SwearWordGenerator/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/Moe/Documents/SwearWordGenerator/English.lproj/MainMenu.xib
+r0
+
+CCompileXIB /Users/Moe/Documents/SwearWordGenerator/MainMenu.xib
+s301158924.844907
+e301158925.629171
+r1
+xCompileXIB
+x/Users/Moe/Documents/SwearWordGenerator/MainMenu.xib
+lSLF07#2@23"CompileXIB MainMenu.xib301158924#301158925#0(0"0(0#0#52"/Users/Moe/Documents/SwearWordGenerator/MainMenu.xib8717833696#352"    cd /Users/Moe/Documents/SwearWordGenerator    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/MainMenu.nib /Users/Moe/Documents/SwearWordGenerator/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/Moe/Projekte/Cocoa/SwearWordGenerator/MainMenu.xib
+r0
+
+CCopyStringsFile /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/InfoPlist.strings InfoPlist.strings
+s301158924.844243
+e301158925.151494
+r1
+xCopyStringsFile
+x/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/InfoPlist.strings
+xInfoPlist.strings
+lSLF07#2@22"Copy InfoPlist.strings301158924#301158925#0(0"0(0#0#57"/Users/Moe/Documents/SwearWordGenerator/InfoPlist.strings8718758720#352"    cd /Users/Moe/Documents/SwearWordGenerator    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 InfoPlist.strings --outdir /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources0#
+
+CCopyStringsFile /Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources/InfoPlist.strings InfoPlist.strings
+r0
+
+CCpResource build/Release/SwearWordGenerator.app/Contents/Resources/Credits.rtf Credits.rtf
+s301158924.845857
+e301158924.852138
+r1
+xCpResource
+xbuild/Release/SwearWordGenerator.app/Contents/Resources/Credits.rtf
+xCredits.rtf
+lSLF07#2@16"Copy Credits.rtf301158924#301158924#0(0"0(0#0#51"/Users/Moe/Documents/SwearWordGenerator/Credits.rtf8716950240#364"    cd /Users/Moe/Documents/SwearWordGenerator    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Moe/Documents/SwearWordGenerator/Credits.rtf /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources0#
+
+CCpResource build/Release/SwearWordGenerator.app/Contents/Resources/SwearWord.icns SwearWord.icns
+s301158924.845359
+e301158924.852369
+r1
+xCpResource
+xbuild/Release/SwearWordGenerator.app/Contents/Resources/SwearWord.icns
+xSwearWord.icns
+lSLF07#2@19"Copy SwearWord.icns301158924#301158924#0(0"0(0#0#54"/Users/Moe/Documents/SwearWordGenerator/SwearWord.icns8717643616#367"    cd /Users/Moe/Documents/SwearWordGenerator    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Moe/Documents/SwearWordGenerator/SwearWord.icns /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator normal "x86_64 i386 ppc"
+s301158932.790364
+e301158932.808813
+r1
+xCreateUniversalBinary
+x/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@117"CreateUniversalBinary build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator normal "x86_64 i386 ppc"301158932#301158932#0(0"0(0#0#55"/Users/Moe/Documents/SwearWordGenerator/x86_64 i386 ppc8717183904#622"    cd /Users/Moe/Documents/SwearWordGenerator    /usr/bin/lipo -create /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator -output /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator0#
+
+CCreateUniversalBinary /Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator normal "x86_64 i386 ppc"
+r0
+
+CGenerateDSYMFile /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app.dSYM /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator
+s301158932.808905
+e301158932.865233
+r1
+xGenerateDSYMFile
+x/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app.dSYM
+x/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator
+lSLF07#2@129"GenerateDSYMFile build/Release/SwearWordGenerator.app.dSYM build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator301158932#301158932#0(0"0(0#0#110"/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator8713648192#275"    cd /Users/Moe/Documents/SwearWordGenerator    /Developer/usr/bin/dsymutil /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator -o /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app.dSYM0#
+
+CGenerateDSYMFile /Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app.dSYM /Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/MacOS/SwearWordGenerator
+r0
+
+CLd /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator normal i386
+s301158931.909930
+e301158932.790296
+r1
+xLd
+x/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator
+xnormal
+xi386
+lSLF07#2@147"Link /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator301158931#301158932#0(0"0(0#0#0"8707172064#638"    cd /Users/Moe/Documents/SwearWordGenerator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Moe/Documents/SwearWordGenerator/build/Release -F/Users/Moe/Documents/SwearWordGenerator/build/Release -filelist /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator0#
+
+CLd /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator normal ppc
+s301158932.167927
+e301158932.789433
+r1
+xLd
+x/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator
+xnormal
+xppc
+lSLF07#2@146"Link /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator301158932#301158932#0(0"0(0#0#0"8635193184#635"    cd /Users/Moe/Documents/SwearWordGenerator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Moe/Documents/SwearWordGenerator/build/Release -F/Users/Moe/Documents/SwearWordGenerator/build/Release -filelist /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator0#
+
+CLd /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator normal x86_64
+s301158931.911251
+e301158932.789975
+r1
+xLd
+x/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator
+xnormal
+xx86_64
+lSLF07#2@149"Link /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator301158931#301158932#0(0"0(0#0#0"8659790528#644"    cd /Users/Moe/Documents/SwearWordGenerator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Moe/Documents/SwearWordGenerator/build/Release -F/Users/Moe/Documents/SwearWordGenerator/build/Release -filelist /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator0#
+
+CLd /Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/i386/SwearWordGenerator normal i386
+r0
+
+CLd /Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/ppc/SwearWordGenerator normal ppc
+r0
+
+CLd /Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/Objects-normal/x86_64/SwearWordGenerator normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Info.plist SwearWordGenerator-Info.plist
+s301158979.872735
+e301158979.875500
+r1
+xProcessInfoPlistFile
+x/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Info.plist
+xSwearWordGenerator-Info.plist
+lSLF07#2@37"Process SwearWordGenerator-Info.plist301158979#301158979#0(0"0(0#0#69"/Users/Moe/Documents/SwearWordGenerator/SwearWordGenerator-Info.plist8720857920#350"    cd /Users/Moe/Documents/SwearWordGenerator    builtin-infoPlistUtility SwearWordGenerator-Info.plist -genpkginfo /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app/Contents/Info.plist SwearWordGenerator-Info.plist
+r0
+
+CProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-cfoavapqjpkjsleodxtljcdiuwdb/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-dsidukaicbmszogbqangwxdqjckm/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-eujeajdxixldaogsgmgbwqvzaect/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s301158925.631027
+e301158931.245522
+r1
+xProcessPCH
+x/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-eujeajdxixldaogsgmgbwqvzaect/SwearWordGenerator_Prefix.pch.gch
+xSwearWordGenerator_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile SwearWordGenerator_Prefix.pch301158925#301158931#0(0"0(0#0#69"/Users/Moe/Documents/SwearWordGenerator/SwearWordGenerator_Prefix.pch8707366208#1613"    cd /Users/Moe/Documents/SwearWordGenerator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-generated-files.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-own-target-headers.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-all-target-headers.hmap -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-project-headers.hmap -F/Users/Moe/Documents/SwearWordGenerator/build/Release -I/Users/Moe/Documents/SwearWordGenerator/build/Release/include -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources/ppc -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources -c /Users/Moe/Documents/SwearWordGenerator/SwearWordGenerator_Prefix.pch -o /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-eujeajdxixldaogsgmgbwqvzaect/SwearWordGenerator_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fbzzvhxyegkzgncygepgngywwcii/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fpiwngkqlvphgngyffcenyavxaik/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fpjxufladiimuedhqclvcyopojfw/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fuzmqevtmfaxhghelqowkcxcklwr/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s301158925.630169
+e301158931.585940
+r1
+xProcessPCH
+x/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fuzmqevtmfaxhghelqowkcxcklwr/SwearWordGenerator_Prefix.pch.gch
+xSwearWordGenerator_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile SwearWordGenerator_Prefix.pch301158925#301158931#0(0"0(0#0#69"/Users/Moe/Documents/SwearWordGenerator/SwearWordGenerator_Prefix.pch8711779648#1605"    cd /Users/Moe/Documents/SwearWordGenerator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-generated-files.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-own-target-headers.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-all-target-headers.hmap -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-project-headers.hmap -F/Users/Moe/Documents/SwearWordGenerator/build/Release -I/Users/Moe/Documents/SwearWordGenerator/build/Release/include -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources/i386 -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources -c /Users/Moe/Documents/SwearWordGenerator/SwearWordGenerator_Prefix.pch -o /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-fuzmqevtmfaxhghelqowkcxcklwr/SwearWordGenerator_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-ggjwncragceaunakeleoctqdevhn/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-gxsxztaoirbqtnhgtqikycbdmppi/SwearWordGenerator_Prefix.pch.gch SwearWordGenerator_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301158925.629289
+e301158931.194067
+r1
+xProcessPCH
+x/var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-gxsxztaoirbqtnhgtqikycbdmppi/SwearWordGenerator_Prefix.pch.gch
+xSwearWordGenerator_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile SwearWordGenerator_Prefix.pch301158925#301158931#0(0"0(0#0#69"/Users/Moe/Documents/SwearWordGenerator/SwearWordGenerator_Prefix.pch8712807648#1609"    cd /Users/Moe/Documents/SwearWordGenerator    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-generated-files.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-own-target-headers.hmap -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-all-target-headers.hmap -iquote /Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/SwearWordGenerator-project-headers.hmap -F/Users/Moe/Documents/SwearWordGenerator/build/Release -I/Users/Moe/Documents/SwearWordGenerator/build/Release/include -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources/x86_64 -I/Users/Moe/Documents/SwearWordGenerator/build/SwearWordGenerator.build/Release/SwearWordGenerator.build/DerivedSources -c /Users/Moe/Documents/SwearWordGenerator/SwearWordGenerator_Prefix.pch -o /var/folders/W0/W0gjaZ8gF3ieR2jsDNtSCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SwearWordGenerator_Prefix-gxsxztaoirbqtnhgtqikycbdmppi/SwearWordGenerator_Prefix.pch.gch0#
+
+CTouch /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app
+s301158979.876561
+e301158979.878763
+r1
+xTouch
+x/Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app
+lSLF07#2@82"Touch /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app301158979#301158979#0(0"0(0#0#0"8713066240#146"    cd /Users/Moe/Documents/SwearWordGenerator    /usr/bin/touch -c /Users/Moe/Documents/SwearWordGenerator/build/Release/SwearWordGenerator.app0#
+
+CTouch /Users/Moe/Projekte/Cocoa/SwearWordGenerator/build/Release/SwearWordGenerator.app
+r0
+
